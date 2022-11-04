@@ -1,0 +1,13 @@
+p.card-text {
+    text-transform: capitalize;
+    color: white;
+}
+
+.card-title{
+    color: blue;
+}
+
+.card{
+    background: grey;
+}
+
