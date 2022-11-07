@@ -1,13 +1,29 @@
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .card{
     width: 200px;
     height: 200px;
+    margin-bottom: 40px;
     background: grey;
+}
+
+label {
+    margin-right: 10px
+}
+
+.form-control {
+    margin-right: 5px
 }
 
 .card-body {
@@ -21,5 +37,10 @@ p.card-text {
 
 .card-title{
     color: blue;
+}
+
+.imagine {
+    max-width: 20px;
+    max-height: 20px;
 }
 
