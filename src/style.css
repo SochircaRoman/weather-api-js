@@ -1,3 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    background: grey;
+}
+
+.card-body {
+    text-align: center;
+}
+
 p.card-text {
     text-transform: capitalize;
     color: white;
@@ -5,9 +21,5 @@ p.card-text {
 
 .card-title{
     color: blue;
-}
-
-.card{
-    background: grey;
 }
 
