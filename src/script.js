@@ -1,4 +1,4 @@
-fetch('https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=6587ef0788721dcbcc61ec44fa9751df')
+fetch('http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=6587ef0788721dcbcc61ec44fa9751df')
     .then(function (resp) { return resp.json() })
     .then(function (data) {
         console.log(data);
